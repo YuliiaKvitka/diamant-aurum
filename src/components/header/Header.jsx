@@ -1,6 +1,6 @@
-import Email from '../email/Email'
-import Logo from '../logo/Logo'
-import MenuList from '../menuList/menuList'
+import Email from './../../components/email/Email'
+import Logo from './../../components/logo/Logo'
+import MenuList from './../../components/menuList/MenuList'
 // import Phone from '../phone/phone'
 
 import styles from './Header.module.css'
