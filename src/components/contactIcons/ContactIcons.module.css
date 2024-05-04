@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    gap: 24px;
+    /* justify-content:space-around; */
+    align-items: center;
+    width: 280px;
+}
+
+.phone,
+.instagram,
+.facebook{
+    cursor: pointer;
+    font-size: 8em;
+    background-color: #18191f;
+    color: var( --brand-color-white);
+    box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+        2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+        inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+        inset 2px 2px 10px #00000080;
+    border-radius: 29px;
+    padding: 0;
+    margin: 0 5px;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+}
+.facebook{
+    animation-delay: 0.3s;
+}
+.instagram{
+    animation-delay: 0.7s;
+}
+.phone{
+    animation-delay: 0.1s;
+}
+@keyframes animate{
+    from{
+        filter: hue-rotate(0deg);
+    }
+    to{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.listItemName {
+    opacity: 0;
+    color:var( --brand-color-white);
+}
+.listItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listItem:hover {
+    transform: translateY(-6px);
+    .listItemName {
+    transform: translateY(20px);
+    opacity: 1;
+    }
+}

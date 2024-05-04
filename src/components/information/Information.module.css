@@ -1,0 +1,97 @@
+.section {
+    width: 1512px;
+    height: 1168px;
+    background-color:var(--brand-bg-form);
+    padding-top: 159px;
+    padding-left: 188px;
+    padding-right: 269px;
+    
+}
+/* .wrapper {
+border: 1px solid white;
+} */
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+.item {
+    display: flex;
+    gap: 64px;
+}
+.titleItem {
+    width: 310px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.text{
+    width: 681px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.title {
+    margin-top: 106px;
+    margin-bottom: 106px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.blockImg {
+    display: flex;
+    gap: 10px;
+}
+.img1 {
+    position: relative;
+    background-image: image-set(url('./../../../public/adblue/img5@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/adblue/img5@2x.jpeg') type('image/jpeg') 2x );
+    width: 377px;
+    height: 272px;
+}
+.img2 {
+    position: relative;
+    background-image: image-set(url('./../../../public/adblue/img6@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/adblue/img6@2x.jpeg') type('image/jpeg') 2x );
+    width: 375px;
+    height: 272px;
+}
+.img3 {
+    position: relative;
+    background-image: image-set(url('./../../../public/adblue/img7@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/adblue/img7@2x.jpeg') type('image/jpeg') 2x );
+    width: 377px;
+    height: 272px;
+}
+.img1:before, .img2:before, .img3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(35, 35, 49, 0.7);
+}
+
+.titleItem1 {
+    margin-top: 113px;
+    margin-left: 27px;
+    width: 310px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    position: relative;
+}

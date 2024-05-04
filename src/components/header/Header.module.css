@@ -1,0 +1,41 @@
+.wrapper {
+    height: 128px;
+    display: flex;
+}
+
+.wrapperLeft {
+    width: 1095px;
+    height: 128px;
+    background-color: var( --brand-color-bg-black);
+    display: flex;
+    align-items: center;
+    padding-left: 149px;
+
+}
+.wrapperRight {
+    padding-right: 181px;
+    width: 418px;
+    height: 128px;
+    background-color:var( --brand-color-bg-red);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+   justify-content: center;
+}
+/* .email {
+    margin-top: 80px;
+} */
+
+.block{
+   
+    width: 205px;
+    height: 128px;
+}
+.call {
+    margin-left: 32px;
+    margin-top: 24px;
+}
+.email {
+    margin-top:76px;
+    margin-left: 44px;
+}

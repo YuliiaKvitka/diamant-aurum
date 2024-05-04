@@ -1,0 +1,19 @@
+.input {
+    padding-left: 27px;
+    width: 307px;
+    color: var( --brand-black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgb(217, 217, 217);
+}
+.input:hover {
+     border: 1px solid var(--brand-color-bg-red);
+}
+.input:focus {
+    border: 2px solid var(--brand-color-bg-red);
+    outline: none; 
+      /* Снимаем стандартный outline  */
+ }

@@ -1,0 +1,63 @@
+.section {
+    height: 572px;
+    width: 1512px;
+    background-color: var(--brand-color-bg-section);
+    display: flex;
+    padding-top: 121px;
+    padding-left: 182px;
+     padding-right: 180px;
+}
+.columnLeft {
+    flex: 1;
+}
+.columnRight {
+    flex:1;
+   
+}
+.wrapperRight {
+    border: 1px solid var(--brand-black);
+    width: 562px;
+    height: 373px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    padding-bottom: 25px;
+}
+.title {
+width: 407px;
+color: var(--brand-black);
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: left;
+}
+.title span {
+font-weight: 400;
+}
+
+.list {
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+
+.item {
+position: relative;
+left: 53px;
+color: var(--brand-black);
+font-size: 16px;
+font-weight: 400;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: left;
+}
+.item::before {
+    position: absolute;
+    content: image-set(url('./../../../public/adblue/mark@1x.png') type('image/png') 1x, url('./../../../public/adblue/mark@2x.png') type('image/png') 2x);
+    left: -53px;
+}

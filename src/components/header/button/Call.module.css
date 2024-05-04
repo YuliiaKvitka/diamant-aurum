@@ -1,0 +1,42 @@
+.phone {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  /* border-radius: 36px; */
+  position: absolute; 
+  cursor: pointer;
+  top:0px;
+  left: 0px;
+}
+
+.cta {
+  height: 45px;
+  width: 200px;
+  color: white;
+  z-index: 1;
+  transition: 1.2s;
+  background: linear-gradient(to right bottom, var(--brand-color-bg-red), var(--brand-color-bg-red));
+  border: 2px solid var(--brand-bg-form);
+}
+
+.number {
+  height: 45px;
+  width: 200px;
+  background-color: var(--brand-color-bg-red);
+  /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),var(--brand-color-bg-red) ; */
+  background-size: cover;
+  color: white;
+  border: 2px solid var(--brand-bg-form);
+  /* box-shadow: 3px 3px 10px #aaa; */
+}
+
+.cta:hover {
+  transform: translateX(80%);
+  transition: 1.2s;
+}
+.block {
+  position: relative;
+  width: 177px;
+  height: ;
+}

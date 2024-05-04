@@ -1,0 +1,63 @@
+.section {
+    overflow: hidden;
+}
+.wrapper {
+    position: relative;
+    background-image: image-set(url('./../../../public/adblue-bg/adblue@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/adblue-bg/adblue@2x.jpeg') type('image/jpeg') 2x );
+    height: 697px;
+    width: 1512px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(35, 35, 49, 0.7); 
+}
+.block {
+    position: relative;
+    left: 183px;
+    padding-top: 93px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    width: 567px;
+}
+.title {
+    color: var(--brand-color-white);
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 0%;
+    text-align:left;
+    /* text-transform: uppercase; */
+}
+.text{
+color: var(--brand-color-white);
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+.button {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    left: 183px;
+    bottom: -122px;
+}
+.offers {
+    margin-top: 40px;
+    margin-left: 183px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 24px;
+}

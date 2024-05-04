@@ -1,0 +1,21 @@
+.item {
+    position: relative;
+    top: 279px;
+    left: 350px;
+    right: 324px;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 155px;
+}
+
+.text {
+    color: var(--brand-color-white);
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+}

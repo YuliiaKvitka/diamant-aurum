@@ -1,0 +1,57 @@
+.section {
+    height: 804px;
+    padding-top: 124px;
+    padding-left: 180px;
+    padding-right: 181px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.companies {
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+     width: 327px;
+}
+.brands{
+margin-top: 72px;
+display: flex;
+gap: 85px;
+justify-content: center;
+align-items: center;
+}
+.item {
+    width: 327px;
+    height:215px ;
+    background-color:#F5F5F5 ;
+    display: flex;
+
+    justify-content: center;
+align-items: center;
+}
+.br {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hr {
+width: 240px;
+height: 3px;
+background: rgb(217, 217, 217);
+margin-top: 33px;
+
+}

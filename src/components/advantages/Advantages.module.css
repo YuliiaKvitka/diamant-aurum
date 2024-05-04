@@ -1,0 +1,61 @@
+.section {
+    height: 716px;
+   
+   
+}
+.wrapper {
+    position: relative;
+    background-image: image-set(url('./../../../public/advantages/bg@1x.jpeg') type('image/jpeg') 1x,
+    url('./../../../public/advantages/bg@2x.jpeg') type('image/jpeg') 2x);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 649px;
+    width: 1512px;
+}
+.wrapper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+.block {
+    position: relative;
+    width: 420px;
+    height: 39px;
+    top: 132px;
+    left: 546px;
+} 
+.title {
+    color:var(--brand-color-white);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+  
+}
+.form {
+    position: relative;
+    top: -100px;
+   height: 166px;
+   width: 1512px; 
+   background-color: var(--brand-bg-form);
+}
+.listItems {
+    display: flex;
+    justify-content: space-between;
+    width: 893px;
+    height: 140px;
+
+}
+.listItems li {
+    flex:1;
+    
+
+   
+}

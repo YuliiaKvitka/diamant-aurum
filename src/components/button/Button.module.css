@@ -1,0 +1,27 @@
+.btn {
+width: 273px;
+height: 66px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-sizing: border-box;
+border: 1px solid var( --brand-color-bg-red);
+}
+.span1 {
+color: var(--brand-color-white);
+font-size: 20px;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: 0%;
+text-align: center; 
+}
+.span2 {
+margin-top: 24px;
+color: var(--brand-color-white);
+font-size: 16px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0%;
+text-align: center; 
+}
