@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import styles from './AdBlue.module.css'
 import HeroAdBlue from '@/components/heroAdBlue/HeroAdBlue'
-import About from '@/components/about/About'
 import Action from '@/components/action/Action'
 import AdvantagesAdBlue from '@/components/action/advantagesAdBlue/AdvantagesAdBlue'
 import Information from '@/components/information/Information'

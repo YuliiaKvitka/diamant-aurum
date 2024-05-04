@@ -1,11 +1,6 @@
-import Image from 'next/image'
+
 import styles from './Information.module.css'
-import Img51x from './../../../public/adblue/img5@1x.jpeg'
-import Img52x from './../../../public/adblue/img5@2x.jpeg'
-import Img61x from './../../../public/adblue/img6@1x.jpeg'
-import Img62x from './../../../public/adblue/img6@2x.jpeg'
-import Img71x from './../../../public/adblue/img7@1x.jpeg'
-import Img72x from './../../../public/adblue/img7@2x.jpeg'
+
 
 const Information = () => {
   return (

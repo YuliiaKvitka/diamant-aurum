@@ -8,8 +8,8 @@ import Img31x from './../../../public/advantages/img3@1x.png'
 import Img32x from './../../../public/advantages/img3@2x.png'
 import Img41x from './../../../public/advantages/img4@1x.png'
 import Img42x from './../../../public/advantages/img4@2x.png'
-import Form from '../form/Form'
-import FormAdBlue from '../formAdBlue/FormAdBlue'
+// import Form from '../form/Form'
+// import FormAdBlue from '../formAdBlue/FormAdBlue'
 import FormAdvantages from '../formAdvantages/FormAdvantages'
 
 const Advantages = () => {

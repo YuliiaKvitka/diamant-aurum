@@ -1,7 +1,7 @@
 import Email from '../email/Email'
 import Logo from '../logo/Logo'
 import MenuList from '../menuList/menuList'
-import Phone from '../phone/phone'
+// import Phone from '../phone/phone'
 
 import styles from './Header.module.css'
 import Call from './button/Call'

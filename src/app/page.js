@@ -3,7 +3,6 @@ import Advantages from "@/components/advantages/Advantages";
 import Clients from "@/components/clients/Clients";
 import Hero from "@/components/hero/Hero";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,7 +17,7 @@ export default function Home() {
         <Advantages />
         <Clients/>
       </main>
-     </div>
+    </div>
     );
     
 }

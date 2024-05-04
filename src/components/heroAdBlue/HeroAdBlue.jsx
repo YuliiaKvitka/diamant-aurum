@@ -5,9 +5,7 @@ import Img11x from './../../../public/adblue-bg/icon1@1x.png'
 import Img12x from './../../../public/adblue-bg/icon1@2x.png'
 import Img21x from './../../../public/adblue-bg/icon2@1x.png'
 import Img22x from './../../../public/adblue-bg/icon1@2x.png'
-import Img31x from './../../../public/offers/sertifcat@1x.png'
-import Img32x from './../../../public/offers/sertifcat@2x.png'
-import Link from 'next/link'
+
 import OfferAdBlue from '../offerAdBlue/OfferAdBlue'
 import Button from '../button/Button'
 

@@ -18,7 +18,7 @@ const About = () => {
               <div className={styles.wrapperRight}>
                   <Image src={Img1x} srcSet={Img2x} placeholder='blur' alt='' width={547} height={365}/>
               </div>
-       </div>
+          </div>
     </section>
     )
 }
